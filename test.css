@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: #138496;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+header input, header button {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.controls input, .controls button {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    background-color: green;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.list-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-container li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.list-container li:hover {
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
